@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.header nav a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center; 
+  font-family: sans-serif;
+  color: #334155; 
+}
+
+.help-icon img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.help-text {
+  display: flex;
+  flex-direction: column; 
+}
+
+.help-label {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none; 
+  color: inherit;
+}
+
+
+.hero {
+    height: 110vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(backg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.hero-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: rgb(52, 165, 56);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+
+
+.about-section {
+  padding: 60px 80px;
+}
+
+.about-container {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-images {
+  position: relative;
+  width: 45%;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.experience-box {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  background: #8190f0;
+  color: white;
+  width: 130px;
+  height: 130px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-box h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.experience-box p {
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.about-content {
+  width: 55%;
+}
+
+.about-content span {
+  color: #0711c9;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin: 10px 0 20px;
+  color: #1f3b2c;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  color: #1f3b2c;
+  font-weight: bold;
+}
+
+.feature p {
+    font-size: 12px;
+}
+.read-more {
+  background: #4056e4;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+.services-section {
+  padding: 80px;
+  background: #e9ebe6;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.services-container span {
+  color: #5c0202;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.services-container h1 {
+  font-size: 38px;
+  color: #743e01;
+  margin: 10px 0 50px;
+}
+
+.services-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.service-card {
+  background: #fbb74b;
+  border-radius: 18px;
+  padding: 40px 30px;
+  text-align: center;
+  flex: 1;
+}
+
+
+.icon-circle img{
+  border-radius: 20px;
+  height: 70px;
+  margin: 0 auto 20px;
+}
+
+.service-card h3 {
+  color: #1f3b2c;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+
+
+
+.footer {
+  background-color: #5c0202;
+  padding: 60px 80px;
+}
+
+.footer-container {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+
+.footer-col h3 {
+  color: #b05d5d;
+  margin-bottom: 20px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+
+.footer-col ul li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
